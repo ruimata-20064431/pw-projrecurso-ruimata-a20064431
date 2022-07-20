@@ -1,0 +1,43 @@
+/* "global" definitions */
+* {
+    /* color palette definition */
+    --c-dark    : #252526 ;
+    --c-light   : #F2F2F2 ;
+    --c-mid     : #A6A6A6 ;
+    --c-accent1 : #4A8C86 ;
+    --c-accent2 : #5EBFAD ;
+
+    background-color: var(--c-accent2);
+}
+
+/* font description */
+@font-face {
+    font-family: 'Samsung Sharp Sans Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Samsung Sharp Sans Regular'), url('../fonts/samsungsharpsans.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Samsung Sharp Sans Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Samsung Sharp Sans Medium'), url('../fonts/samsungsharpsans-medium.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Samsung Sharp Sans Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Samsung Sharp Sans Bold'), url('../fonts/samsungsharpsans-bold.woff') format('woff');
+}
+
+header {
+    display          : flex;
+    justify-content  : space-between;
+    background-color : var(--c-accent2);
+    font-family: "Samsung Sharp Sans Bold";
+    font-size: 5vw;
+}
